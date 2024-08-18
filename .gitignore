@@ -1,0 +1,46 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+build/
+dist/
+*.wheel
+pip-wheel-metadata/
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.pytype/
+.tox/
+.coverage
+.cache/
+.DS_Store
+
+# IPython Notebook checkpoints
+.ipynb_checkpoints/
+
+# Visual Studio Code settings
+.vscode/
+
+# Ignore the images folder
+images/
+
+# Ignore labels.csv file
+labels.csv
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
